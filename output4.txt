@@ -1,0 +1,13 @@
+p = [0.375, 0.125, 0.12, 0.42]
+
+y = [0, 1]
+
+Gilbert Moore Coding:
+
+p[0] code = 00
+p[1] code = 01
+p[2] code = 10
+p[3] code = 11
+
+Entropy value: 1.7983525870542996
+Efficiency value: 0.8645925899299517
