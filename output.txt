@@ -15,4 +15,5 @@ p[7] code = 1110
 p[8] code = 1111
 
 Entropy value: 2.8761417873575224
+Expected length: 3.2600000000000002
 Efficiency value: 0.8822520820115098

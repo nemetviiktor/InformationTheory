@@ -210,11 +210,13 @@ public class GilbertMoore {
 				L += p[i] * code.get(i).length();
 			}
 			entropy = -entropy;
-			double efficiency = entropy / L * (Math.log(y.length) / Math.log(2));
+			double efficiency = entropy / (L * (Math.log(y.length) / Math.log(2)));
 
 			System.out.println("Entropy value: " + entropy);
+			System.out.println("Expected length: " + L);
 			System.out.println("Efficiency value: " + efficiency);
 			myWriter.write("Entropy value: " + entropy + "\n");
+			myWriter.write("Expected length: " + L + "\n");
 			myWriter.write("Efficiency value: " + efficiency);
 
 			myWriter.close();

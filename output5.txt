@@ -1,13 +1,14 @@
-p = [0.375, 0.125, 0.12, 0.42]
+p = [0.4, 0.1, 0.3, 0.2]
 
-y = [0, 1, 2]
+y = [0, 1]
 
 Gilbert Moore Coding:
 
-p[0] code = 0
-p[1] code = 10
-p[2] code = 12
-p[3] code = 2
+p[0] code = 00
+p[1] code = 01
+p[2] code = 10
+p[3] code = 11
 
-Entropy value: 1.7983525870542996
-Efficiency value: 2.218148959965715
+Entropy value: 1.8464393446710154
+Expected length: 2.0
+Efficiency value: 0.9232196723355077
